@@ -12,7 +12,3 @@ TEAM_MEMBERS:
 
 
 PROJECT_OVERVIEW: STARDOWN is a rewrite of the AP CSA Curriculum with the goal of giving students a reason to care about learning Java and allowing students to extend their learning without expecting them to just teach their peers.
-
-
-
-

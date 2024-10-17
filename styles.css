@@ -1,0 +1,63 @@
+#HomePageBox1
+{
+    background-color: black;
+    width: 1280px;
+    height: 551px;
+    opacity: 0.9;
+    
+}
+
+#HomePageBox2
+{
+    
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+
+}
+
+#HomePageStardownTitle
+{
+    position: absolute;
+    top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 640px;
+    font-size: 80px;
+    color: aliceblue;
+    
+
+}
+
+
+.Menu2:hover{
+    color: hsl(0, 0%, 96%);
+}
+
+.Menu2
+{
+    text-decoration: none;
+    color: hsl(0, 0%, 47%);
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+#MenuBox
+{
+    background: rgb(60,67,67);
+    background: linear-gradient(0deg, rgba(60,67,67,1) 0%, rgba(171,159,159,1) 67%);
+    position: fixed;
+    width: 300px;
+    height: 600px;
+    top: 0px;
+    right: 0px;
+    opacity: 0.8;
+   
+    
+}
+
+
+
+

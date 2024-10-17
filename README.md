@@ -1,2 +1,0 @@
-#PROJECTSTARDOWN
-What the Sigma

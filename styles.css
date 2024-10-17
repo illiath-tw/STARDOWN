@@ -1,92 +1,63 @@
-#HomePgTitle1
+#HomePageBox1
 {
-    color:blueviolet;
-    font-size: 4em;
-    opacity: 100%;
-    margin-bottom: 100px;
-    text-align:end;
-    margin-right: 230px;
-    background-repeat: no-repeat;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#HomePgTitle2
-{
-    color:blue;
-    font-size: 4em;
-    opacity: 100%;
-    margin-bottom: 100px;
-    text-align:end;
-    background-repeat: no-repeat;
-    top: -1px;
-    margin-left: 1020px;
-    position:absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
-    
-
+    background-color: black;
+    width: 1280px;
+    height: 551px;
+    opacity: 0.9;
     
 }
 
-#HomePgTitlebox1
+#HomePageBox2
 {
-    background-image:url(_71774778-1aa8-4815-9843-2cd10a36d006.jpg);
-    width: 1100px;
-    height: 200px;
-    opacity: 15%;
-    position:absolute;
-    top: -10px;
-    margin-bottom: 100px;
-    background-repeat: no-repeat;
-}
-
-#HomePgTitlebox2
-{
-    background: rgb(59,59,59);
-background: linear-gradient(90deg, rgba(59,59,59,1) 0%, rgba(110,110,122,1) 2%, rgba(159,159,197,1) 5%, rgba(159,159,197,1) 7%, rgba(165,165,210,1) 10%, rgba(166,168,202,1) 11%, rgba(169,171,204,1) 13%, rgba(170,172,205,1) 15%, rgba(175,178,209,1) 18%, rgba(182,187,214,1) 25%, rgba(186,191,216,1) 28%, rgba(192,197,220,1) 30%, rgba(196,201,223,1) 35%, rgba(200,205,226,1) 40%, rgba(207,213,231,1) 47%, rgba(213,219,235,1) 51%, rgba(218,225,239,1) 55%, rgba(219,227,240,1) 59%, rgba(225,234,244,1) 63%, rgba(229,238,246,1) 70%, rgba(236,246,251,1) 81%, rgba(242,253,255,1) 95%);
-    width: 1020px;
-    height: 200px;
-    opacity: 70%;
+    
+    opacity: 0.8;
     position: absolute;
-    top: -10px;
-    margin-bottom: 100px;
-    background-repeat: no-repeat;
+    top: 0px;
+
 }
 
-#HomePgTitlebox3
+#HomePageStardownTitle
 {
-    background-color: grey;
-    width: 245px;
-    height: 200px;
-    opacity: 30%;
-    position:absolute;
-    top: -10px;
-    margin-bottom: 100px;
-    margin-left: 1020px;
-    background-repeat: no-repeat;
-}
-
-
-.feets
-{
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 100px;
-background-repeat: no-repeat;
-    background: rgb(110,110,122);
-background: linear-gradient(0deg, rgba(110,110,122,1) 0%, rgba(242,253,255,1) 0%, rgba(153,153,193,1) 2%, rgba(159,159,197,1) 3%, rgba(166,168,202,1) 5%, rgba(170,172,205,1) 7%, rgba(175,178,209,1) 8%, rgba(182,187,214,1) 10%, rgba(186,191,216,1) 12%, rgba(192,197,220,1) 15%, rgba(196,201,223,1) 18%, rgba(200,205,226,1) 20%, rgba(207,213,231,1) 21%, rgba(213,219,235,1) 23%, rgba(218,225,239,1) 24%, rgba(225,234,244,1) 27%, rgba(229,238,246,1) 29%, rgba(236,246,251,1) 31%, rgba(242,253,255,1) 34%);
-
-}
-
-.bodyhome
-{
-    text-align:center;
-
-}
-
-
-
+    position: absolute;
+    top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 640px;
+    font-size: 80px;
+    color: aliceblue;
     
+
+}
+
+
+.Menu2:hover{
+    color: hsl(0, 0%, 96%);
+}
+
+.Menu2
+{
+    text-decoration: none;
+    color: hsl(0, 0%, 47%);
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+#MenuBox
+{
+    background: rgb(60,67,67);
+    background: linear-gradient(0deg, rgba(60,67,67,1) 0%, rgba(171,159,159,1) 67%);
+    position: fixed;
+    width: 300px;
+    height: 600px;
+    top: 0px;
+    right: 0px;
+    opacity: 0.8;
+   
+    
+}
+
+
+
 

@@ -1,90 +1,73 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProjectStardown Test</title>
     <script src="https://kit.fontawesome.com/5c99029df7.js" crossorigin="anonymous"></script>
-    
+
 
 </head>
-    <link rel = "stylesheet" href = "styles.css">
-<body style="margin: 0px; padding: 0px">
-    <div id = "HomePageBox1" onclick="hideElement()">
-        
-    </div>
+<link rel="stylesheet" href="styles.css">
 
-    <div id = "HomePageBox2" onclick="hideElement()">
-        <img src="rustscreeen1.webp" alt="AnimatedGif" width="1280px" height="540px">
-    
+
+<!--
+    On this page, "Menu", TOS & Login will be present, the TOS will be presented the first time you attempt to login
+    Backend Requied!
+-->
+
+
+<body style="margin: 0px; padding: 0px">
+
+
+    <div id="HomePageBox1" onclick="hideElement()">
+
     </div>
 
     <header>
-        <h1 id = "HomePageStardownTitle">
-            S T A R  D O W N
+        <h1 id="HomePageStardownTitle">
+            S T A R D O W N
         </h1>
     </header>
 
-    <div id = "menu" style="position: absolute; top: 200px; left: 70px;" onclick="theDeterminator()" class="Menu2">
+
+    <div class="slider" onclick="hideElement()" >
+        <div class="slides">
+            <img class="slide" src="BigBro1984-1.webp">
+            <img class="slide" src="rustscreeen2.webp">
+            <img class="slide" src="rustscreeen1.webp">
+        </div>
+
+    </div>
+
+
+    <div id="menu" style="position: absolute; top: 200px; left: 70px;" onclick="theDeterminator()" class="Menu2">
         MENU
     </div>
 
     <p style="position: absolute; top: 300px; left: 70px;">
-        <a href="page2.html" class = "Menu2">
-            FILLER
-         </a>   
+        <a href="About.html" class="Menu2">
+            ABOUT
+        </a>
     </p>
 
     <p style="position: absolute; top: 400px; left: 70px;">
-        <a href="page3.html" class = "Menu2">
-            FILLER
-        </a>   
+        <a href="Credits.html" class="Menu2">
+            CREDITS
+        </a>
     </p>
 
-    <div id ="MenuBox">
+    <div id="MenuBox">
         <p>
             Test1
         </p>
     </div>
 
-    <script>
-    function hideElement()
-    {
-        document.getElementById("MenuBox").style.display = "none";
-    }
-    </script>
 
-    <script>
-    function showElement()
-    {
-        document.getElementById("MenuBox").style.display = "block";
-        
-    }
-    </script>
 
-    <script>
-    function codeAddress() 
-    {
-    hideElement();
-    }
-    window.onload = codeAddress;
 
-    </script>
-
-    <script>
-        function theDeterminator()
-    {
-        if(document.getElementById("MenuBox").style.display == "none")
-        {
-            showElement();
-        } 
-        else {
-            hideElement();
-        }
-    }
-    </script>
-    
-
+    <script src="script.js"> </script>
 </body>
+
 </html>

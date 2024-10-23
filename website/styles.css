@@ -1,40 +1,28 @@
-#HomePageBox1
-{
+#HomePageBox1 {
     background-color: black;
-    width: 1280px;
-    height: 551px;
-    opacity: 0.9;
-    
-}
-
-#HomePageBox2
-{
-    
+    width: 100vw;
+    height: 100vh;
     opacity: 0.8;
-    position: absolute;
-    top: 0px;
 
 }
 
-#HomePageStardownTitle
-{
+#HomePageStardownTitle {
     position: absolute;
     top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     right: 640px;
-    font-size: 80px;
+    font-size: 6vw;
+    opacity: 1;
     color: aliceblue;
-    
+
 
 }
 
-
-.Menu2:hover{
+.Menu2:hover {
     color: hsl(0, 0%, 96%);
 }
 
-.Menu2
-{
+.Menu2 {
     text-decoration: none;
     color: hsl(0, 0%, 47%);
     font-size: 70px;
@@ -44,20 +32,69 @@
 
 }
 
-#MenuBox
-{
-    background: rgb(60,67,67);
-    background: linear-gradient(0deg, rgba(60,67,67,1) 0%, rgba(171,159,159,1) 67%);
+#MenuBox {
+    background: rgb(60, 67, 67);
+    background: linear-gradient(0deg, rgba(60, 67, 67, 1) 0%, rgba(171, 159, 159, 1) 67%);
     position: fixed;
     width: 300px;
-    height: 600px;
+    height: 100vh;
     top: 0px;
     right: 0px;
     opacity: 0.8;
-   
+}
+
+.bottomBarCopiable {
+
+    background: rgb(1, 28, 63);
+
+    background: linear-gradient(0deg, rgba(1, 28, 63, 1) 17%, rgba(34, 51, 47, 1) 24%, rgba(38, 64, 51, 1) 29%, rgba(35, 77, 64, 1) 33%, rgba(105, 86, 23, 1) 36%, rgba(91, 65, 27, 1) 40%, rgba(76, 47, 28, 1) 44%, rgba(9, 1, 42, 1) 73%, rgba(5, 1, 24, 1) 85%);
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    bottom: 0px;
+    opacity: 0.8;
+}
+
+.slider {
+    top: 0px;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+    opacity: 0.25;
+
+}
+
+.homeButtonCopiable {
+
+
+    background-color: white;
+    opacity: 1;
+    text-decoration: none;
+    border: none;
+    opacity: 0.1;
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 10vw;
+    height: 10vh;
+    padding: 10px;
+    
     
 }
 
-
-
-
+.homeButtonCopiable:hover{
+    background-color:bisque;
+}
